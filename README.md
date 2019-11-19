@@ -130,14 +130,14 @@ Write a conditional statement that...
 // your answer here
 varNumber1 = 15;
  for(let i =0 ; i<=100;i++){
- if(varNumber1%3 === 0 && varNumber1%5 === 0){
+ if(i%3 === 0 && i%5 === 0){
  console.log("FizzBuzz")}
- else if (varNumber1%5 === 0){
+ else if (i%5 === 0){
  console.log("Buzz")}
- else if (varNumber1%3 === 0){
+ else if (i%3 === 0){
  console.log("Fizz")}
  else {
- console.log(varNumber1)}
+ console.log(i)}
  }
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
