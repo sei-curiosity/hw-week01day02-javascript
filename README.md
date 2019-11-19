@@ -23,17 +23,11 @@ c = a;
 
 ### Your solution here:
 1.  What is `a`?
-```
-a is ...
-```
+bongos 
 2.  What is `b`?
-```
-b is ...
-```
+true 
 3.  What is `c`?
-```
-c is ...
-```
+bongos 
 
 ## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Please", "squeeze", "the", "cheese". Make sure there are spaces in-between each word.
@@ -47,9 +41,14 @@ const fourthWord = "cheese";
 Result should be:
 ```js
 "Please squeeze the cheese"
-```
 
-### Your solution here:
+//
+let firstWord = "Please";
+let secondWord = "squeeze";
+let thirdWord = "the";
+let fourthWord = "cheese";
+let ff=firstWord +" "+secondWord +" "+thirdWord+" " +fourthWord+" ";
+//
 4.  Fill in the `console.log()`?
 ```js
 console.log()
@@ -60,8 +59,15 @@ Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 a
 const num1 = 5;
 const num2 = 10;
 ```
+let num1 = 5;
+let num2 = 10;
+let num3 = num1+num2
+num3
 
-### Your solution here:
+num3
+{
+console.log(num1+num2)}
+```
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
@@ -72,6 +78,16 @@ const num2 = 10;
 
 ```js
 console.log()
+```
+let num1 = 5;
+let num2 = 10;
+let num3 = num1+num2
+num3
+
+num3
+{
+console.log(num1+num2)}
+
 ```
 
 ## Comparisons
@@ -89,14 +105,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) 999 > 999; fales
+b) 999 === 999 ; true
+c) 999 !== 999; false
+d) -5 >= -4;false
+e) 100 <= -100;false
+f) 20 + 5 < 5 ;false
+g) 81 / 9 === 9;true
+h) 9 !== 8 + 1;false
 ```
 
 ## Conditionals
@@ -109,6 +125,23 @@ Write a conditional statement that...
 - Otherwise, print the number
 
 ### Your solution here:
+ if (numR % 3==0)
+{
+ console.log (` fizz`)
+}
+else if (numR % 5 ==0) 
+{
+console.log (`buzz`) 
+}
+else if (numR % 3==0 && numR% 5 ==0)
+{ 
+console.log (` fizzbuzz`)
+     }
+else {
+    console.log (`${numR}`)
+}
+
+////
 8.  Write your javascript solution below
 ```js
 // your answer here
@@ -117,7 +150,15 @@ Write a conditional statement that...
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
+i=100
+while (i < 100) { // shows 0, then 1, then 2
+    alert( i );
+    i++;
+  }while (i < 3) { // shows 0, then 1, then 2
+    alert( i );
+    i++;
+  }
+
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
@@ -133,4 +174,4 @@ For more practice read about...
 - https://javascript.info/ifelse
 - https://javascript.info/logical-operators
 
-just trying 
+just trying :)
