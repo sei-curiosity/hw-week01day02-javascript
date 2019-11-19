@@ -24,7 +24,7 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...bongos
+a is ...'bongos'
 ```
 2.  What is `b`?
 ```
@@ -52,7 +52,7 @@ Result should be:
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log(firstWord+""+secondWord+" "+ thirdWord+ ""+ fourthWord )
+console.log(firstWord+" "+secondWord+" "+ thirdWord+ " "+ fourthWord )
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
