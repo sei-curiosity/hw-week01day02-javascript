@@ -22,17 +22,9 @@ c = a;
 ```
 
 ### Your solution here:
-1.  What is `a`?
-```
-a is ...
-```
-2.  What is `b`?
-```
-b is ...
-```
-3.  What is `c`?
-```
-c is ...
+A = bongos ;
+B = true ;
+c = 1 ;
 ```
 
 ## Concatenation
@@ -50,28 +42,24 @@ Result should be:
 ```
 
 ### Your solution here:
-4.  Fill in the `console.log()`?
-```js
-console.log()
-```
 
-Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
-```js
-const num1 = 5;
-const num2 = 10;
-```
+const firstWord = "Please";
+const secondWord = "squeeze";
+const thirdWord = "the";
+const fourthWord = "cheese";
+const sentence = firstWord + " "+secondWord + " "+ thirdWord + " "+ fourthWord ;
+console.log(sentence);
+
+
 
 ### Your solution here:
-5.  How can we make `num3` equal to the sum of `num1` and `num2`?
-```js
-// your solution here
-```
-6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
+const num1 = 5;
+const num2 = 10;
+if (num1 + num2 ==15){ 
+console.log ("The sum of 5 and 10 is 15");
+}
 
->The sum of 5 and 10 is 15
 
-```js
-console.log()
 ```
 
 ## Comparisons
@@ -89,14 +77,15 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true 
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
+
 ```
 
 ## Conditionals
@@ -108,27 +97,37 @@ Write a conditional statement that...
 - If it is a multiple of both 3 and 5, print “FizzBuzz” instead of the number.
 - Otherwise, print the number
 
-### Your solution here:
+### Your solution here :
 8.  Write your javascript solution below
+
 ```js
 // your answer here
+
+let number = 33
+
+if (number % 3 === 0 && number% 5 === 0 ){
+     console.log('fizzBuzz')
+}
+else if( number %5 === 0) {
+     console.log('Buzz')
+} 
+else if (number % 3 === 0  ){
+   console.log('fizz')
+}
+
 ```
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
-```
+
+for (let number=0 ; number <=100 ; number++ )
+{console.log(number);  
+ } 
+  ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 // your answer here
 ```
 
-# Additional Resources
-For more practice read about...
-- https://javascript.info/variables
-- https://javascript.info/types
-- https://javascript.info/operators
-- https://javascript.info/comparison
-- https://javascript.info/ifelse
-- https://javascript.info/logical-operators
