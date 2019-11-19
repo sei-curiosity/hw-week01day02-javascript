@@ -13,7 +13,7 @@ Without running the following code, try to determine:
 
 ```js
 let a = 1;
-let b = 'bongos';
+let b = 'bongosh';
 let c = true;
 
 a = b;
