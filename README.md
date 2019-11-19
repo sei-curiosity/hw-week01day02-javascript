@@ -133,8 +133,22 @@ console.log(result)
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
+results = "";
 // your answer here
-for (i =1 ;i<>)
+for (i =1 ;i<=100;i++){
+    results = "";
+    if (i %3 == 0){
+    result += 'Fizz';
+}
+if (i %==5){
+    result += 'Buzz';
+}
+if (result ==""){
+    result = i;
+} 
+console.log(result)
+
+}
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
