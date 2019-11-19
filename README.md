@@ -24,7 +24,7 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a = 'bongos'
 ```
 2.  What is `b`?
 ```
