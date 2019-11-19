@@ -146,14 +146,14 @@ varNumber1 = 15;
 varNumber1 = 15;
  function printWords(num){
  for(let i =0 ; i<=num;i++){
- if(varNumber1%3 === 0 && varNumber1%5 === 0){
+ if(i%3 === 0 && i%5 === 0){
  console.log("FizzBuzz")}
- else if (varNumber1%5 === 0){
+ else if (i%5 === 0){
  console.log("Buzz")}
- else if (varNumber1%3 === 0){
+ else if (i%3 === 0){
  console.log("Fizz")}
  else {
- console.log(varNumber1)}
+ console.log(i)}
  }
  }
 printWords(20);
